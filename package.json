@@ -8,7 +8,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name sauertracker-vue-components ./src/main.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "postinstall": "npm run-script build"
   },
   "dependencies": {
     "core-js": "^3.6.4",
