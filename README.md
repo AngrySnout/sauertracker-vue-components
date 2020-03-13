@@ -23,14 +23,14 @@ Add to your components list:
 
 ```javascript
 components: {
+  ServerList,
   // ...
-  ServerList;
 }
 ```
 
 Use in your template:
 
-```javascript
+```html
 <server-list
   title="SauerTracker Servers"
   api-url="https://sauertracker.net/api/servers"
