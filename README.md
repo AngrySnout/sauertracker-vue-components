@@ -41,7 +41,9 @@ Use in your template:
 
 ## Examples
 
-Check the [src/examples](https://github.com/AngrySnout/sauertracker-vue-components/tree/master/src/examples) for example usage.
+Check
+[src/examples](https://github.com/AngrySnout/sauertracker-vue-components/tree/master/src/examples)
+for example usage.
 
 ## License
 
