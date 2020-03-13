@@ -7,7 +7,7 @@ sauertracker.net.
 
 Add to your project:
 
-```
+```bash
 yarn add sauertracker-vue-components
 # or
 npm install sauertracker-vue-components --save
@@ -15,22 +15,22 @@ npm install sauertracker-vue-components --save
 
 Import in your Vue file:
 
-```
-import { ServerList } from 'sauertracker-vue-components'
+```javascript
+import { ServerList } from "sauertracker-vue-components";
 ```
 
 Add to your components list:
 
-```
+```javascript
 components: {
   // ...
-  ServerList
+  ServerList;
 }
 ```
 
 Use in your template:
 
-```
+```javascript
 <server-list
   title="SauerTracker Servers"
   api-url="https://sauertracker.net/api/servers"
