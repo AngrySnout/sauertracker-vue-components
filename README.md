@@ -1,24 +1,48 @@
-# sauertracker-vue-components
+# SauerTracker Vue Components
 
-## Project setup
-```
-yarn install
-```
+This project provides a few components for pulling and displaying data from
+sauertracker.net.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Usage
 
-### Compiles and minifies for production
+Add to your project:
+
 ```
-yarn build
+yarn add sauertracker-vue-components
+# or
+npm install sauertracker-vue-components --save
 ```
 
-### Lints and fixes files
+Import in your Vue file:
+
 ```
-yarn lint
+import { ServerList } from 'sauertracker-vue-components'
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Add to your components list:
+
+```
+components: {
+  // ...
+  ServerList
+}
+```
+
+Use in your template:
+
+```
+<server-list
+  title="SauerTracker Servers"
+  api-url="https://sauertracker.net/api/servers"
+  :dark="false"
+  :show-empty="false"
+/>
+```
+
+## Examples
+
+Check the _src/examples_ for example usage.
+
+## License
+
+MIT
