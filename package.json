@@ -4,6 +4,7 @@
   "main": "./dist/sauertracker-vue-components.common.js",
   "repository": "https://github.com/AngrySnout/sauertracker-vue-components.git",
   "author": "AngrySnout",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name sauertracker-vue-components ./src/main.js",
